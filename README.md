@@ -10,7 +10,7 @@ Necessário ter Node.js e o NPM
 
 ## Dependências
 
-Execute o comaando "npm install"
+Execute o comando "npm install"
 
 ## Rodando os testes
 
