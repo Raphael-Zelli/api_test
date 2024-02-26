@@ -16,10 +16,10 @@ Execute o comaando "npm install"
 
 Execute "npx cypress open". Neste momento o Runner será aberto.
 Com o Runner aberto, siga os passos:
-1 - Selecione a opçãao "E2E Testing"
-2 - Selecione a opçãao "Chrome"
-3 - Clique em "Start E2E Testing in Chorome"
-4 - Será listada dos os teste disponíveis, selecione o arquivo que deseja executar os testes. Exemplo "buscarDispositivo.api.cy.js"
+1. Selecione a opçãao "E2E Testing"
+2. Selecione a opçãao "Chrome"
+3. Clique em "Start E2E Testing in Chorome"
+4. Será listada dos os teste disponíveis, selecione o arquivo que deseja executar os testes. Exemplo "buscarDispositivo.api.cy.js"
 
 Pronto, agora os testes serão executados.
 
