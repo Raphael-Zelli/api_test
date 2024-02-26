@@ -33,4 +33,22 @@ describe("Buscar dispositivos",()=>{
                 })
 
         })
+
+        it.only("Buscar dispositivo existente",()=>{
+            const id = "4"
+            const nomeDispositivo = "Apple iPhone 11, 64GB"
+            var price = 389.99
+            const color = "Purple"
+            cy.request({
+                url:`/objects/${id}`,
+                method:"GET"
+            })
+                .then((resultado)=>{
+                    expect(resultado.status).equal(200)
+                    expect(resultado.body.id).equal(id)   
+                    expect(resultado.body.name).equal(nomeDispositivo)  
+                    expect(resultado.body.data.price).equal(price)   
+                    expect(resultado.body.data.color).equal(color)    
+                })
+        })
 })
